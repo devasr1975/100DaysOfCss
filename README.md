@@ -6,9 +6,11 @@ This repo is where I practice and showcase various CSS mini projects — from la
 
 ### 🚀 Project Demos
 
-- **Day 1** – [Live Demo](https://devasr1975.github.io/100DaysOfCss/day1.html)  
-- **Day 2** – [Live Demo](https://devasr1975.github.io/100DaysOfCss/day2.html)  
+#### Day 1  
+[![Day 1 Screenshot](https://raw.githubusercontent.com/devasr1975/100DaysOfCss/main/day1.png)](https://devasr1975.github.io/100DaysOfCss/day1.html)
+
+#### Day 2  
+[![Day 2 Screenshot](https://raw.githubusercontent.com/devasr1975/100DaysOfCss/main/day2.png)](https://devasr1975.github.io/100DaysOfCss/day2.html)
 
 ---
-
 More projects coming soon!
