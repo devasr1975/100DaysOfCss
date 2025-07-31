@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day4</title>
+
+    <style>
+        .container{
+            position: absolute;
+            height: 300px;
+            width: 300px;
+            border-radius: 5px;
+            background-color: #E56262;
+            border:1px rgb(246, 239, 239) solid;
+            transform: translate(-50%,-50%);
+            top:50%;
+            left: 50%;
+        }
+
+        .center{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .circle1{
+            position: absolute;
+            height:80px;
+            width: 80px;
+            border-radius: 50%;
+            background-color: #fff;
+            box-shadow: 2px 2px 4px #575656;
+            z-index: 1;
+            animation:circle1 2s infinite alternate both;
+            animation-timing-function: cubic-bezier(0.21, 0.98, 0.6, 0.99);
+
+        }
+        .circle2{
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: #fff;
+            box-shadow: 2px 2px 4px #575656;
+            z-index: 2;
+            animation:circle2 2s infinite alternate both ;
+             animation-timing-function: cubic-bezier(0.21, 0.98, 0.6, 0.99);
+
+        }
+        .circle3{
+            position: absolute;
+            height:30px;
+            width: 30px;
+            border-radius: 50%;
+            background-color: #fff;
+            box-shadow: 2px 2px 4px #575656;
+            z-index: 3;
+            animation:circle3 2s infinite alternate both;
+             animation-timing-function: cubic-bezier(0.21, 0.98, 0.6, 0.99);
+
+        }
+
+        @keyframes circle3{
+            0%,70%{
+                box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.2);
+                transform: scale(0);
+            }
+            100%{
+                transform: scale(1);
+            }
+        }
+        
+        @keyframes circle2 {
+            0%,40%{
+                box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.2);
+                transform: scale(0);
+            }
+            
+            100%{
+
+                transform: scale(1);
+            }
+        }
+        @keyframes circle1 {
+            0%,10%{
+                box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.2);
+                transform: scale(0);
+            }
+           
+            100%{
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="center">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+        </div>
+    </div>
+</body>
+</html>
